@@ -175,6 +175,12 @@ Malfunction Amplification](https://arxiv.org/pdf/2407.20859)
     - 📖 TLDR: This work studies the vulnerabilities of language model collaborations via debate. They evaluate the behavior of a network of models collaborating through debate under the influence of an adversary. They introduce pertinent metrics to assess the adversary's effectiveness, focusing on system accuracy and model agreement. Additionally, they explore inference-time methods to generate more compelling arguments and evaluate the potential of prompt-based mitigation as a defensive strategy.
     - 📅 Date: Jun 26, 2024
 
+- [AgentBreeder: Mitigating the AI Safety Impact of Multi-Agent Scaffolds via Self-Improvement](https://arxiv.org/abs/2502.00757)
+    - 🔑 Key: attack, defense
+    - 🤖 Agent Type: Multi-Agent
+    - 📖 TLDR: This work introduces AgentBreeder, a framework for multi-objective self-improving evolutionary search over scaffolds. They evaluate discovered scaffolds on widely recognized reasoning, mathematics, and safety benchmarks and compare them with popular baselines. In 'blue' mode, they see a 79.4% average uplift in safety benchmark performance while maintaining or improving capability scores. In 'red' mode, they find adversarially weak scaffolds emerging concurrently with capability optimization. This work demonstrates the risks of multi-agent scaffolding and provides a framework for mitigating them.
+    - 📅 Date: Apr 14, 2025
+
 
 ### 4. OS Agents
 
