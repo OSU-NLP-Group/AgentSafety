@@ -246,6 +246,12 @@ Malfunction Amplification](https://arxiv.org/pdf/2407.20859)
     - 🤖 Agent Type: Tool Agent, RAG System
     - 📖 TLDR: This work introduces Agent Security Bench (ASB), a comprehensive framework designed to formalize, benchmark, and evaluate the attacks and defenses of LLM-based agents, including 10 scenarios (e.g., e-commerce, autonomous driving, finance), 10 agents targeting the scenarios, over 400 tools, 23 different types of attack/defense methods, and 8 evaluation metrics. Based on ASB, we benchmark 10 prompt injection attacks, a memory poisoning attack, a novel Plan-of-Thought backdoor attack, a mixed attack, and 10 corresponding defenses across 13 LLM backbones with nearly 90,000 testing cases in total.
     - 📅 Date: Oct 03, 2024
+
+- [Evaluating Cultural and Social Awareness of LLM Web Agents](https://arxiv.org/pdf/2410.23252)
+    - 🔑 Key: benchmark
+    - 🤖 Agent Type: Web Agent
+    - 📖 TLDR: This work introduces CASA, a benchmark designed to evaluate the cultural and social awareness of LLM agents across two web-based tasks: online shopping and social discussion forums. CASA assesses LLM agents’ ability to detect and appropriately respond to norm-violating user queries and observations. The evaluation framework measures awareness coverage, helpfulness in managing user queries, and the violation rate when facing misleading web content. Benchmarking experiments reveal that LLM agents perform significantly worse in web-based environments, with less than 10% awareness coverage and over 40% violation rates. To enhance performance, we explore prompting and fine-tuning, finding that fine-tuning on culture-specific datasets improves generalization across regions, while prompting enhances task navigation. These findings highlight the necessity of benchmarking LLM agents' cultural and social awareness throughout their development.
+    - 📅 Date: Feb 09, 2025
     
 
 ## Contributing
