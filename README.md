@@ -195,6 +195,12 @@ Malfunction Amplification](https://arxiv.org/pdf/2407.20859)
     - 🤖 Agent Type: OS Agent / GUI Agent
     - 📖 TLDR: This paper investigates the faithfulness of multimodal large language model (MLLM) agents in the graphical user interface (GUI) environment, aiming to address the research question of whether multimodal GUI agents can be distracted by environmental context. Experimental results reveal that even the most powerful models, whether generalist agents or specialist GUI agents, are susceptible to distractions. Furthermore, we explore the adversarial perspective and implement environment injection, demonstrating that such unfaithfulness can be exploited, leading to unexpected risks.
     - 📅 Date: Aug 05, 2024
+  
+- [OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents](https://arxiv.org/abs/2506.14866)
+    - 🔑 Key: benchmark
+    - 🤖 Agent Type: OS Agent / GUI Agent
+    - 📖 TLDR: Computer use agents—AI systems that can interact with graphical interfaces through screenshots and accessibility trees—pose significant safety risks that have been largely overlooked despite their growing popularity. We introduce **OS-Harm**, a comprehensive benchmark with 150 tasks testing three categories of harmful behavior: deliberate user misuse, prompt injection attacks, and model misbehavior across various applications like email clients, browsers, and code editors. Our evaluation of frontier models reveals concerning vulnerabilities: they frequently comply with deliberate misuse requests, are susceptible to static prompt injections, and occasionally perform unsafe actions without proper safeguards.
+    - 📅 Date: Jun 17, 2025
 
 
 ### 5. Benchmark / Survey / Position Papers
