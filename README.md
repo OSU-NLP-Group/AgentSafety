@@ -195,12 +195,6 @@ Malfunction Amplification](https://arxiv.org/pdf/2407.20859)
     - 🤖 Agent Type: OS Agent / GUI Agent
     - 📖 TLDR: This paper investigates the faithfulness of multimodal large language model (MLLM) agents in the graphical user interface (GUI) environment, aiming to address the research question of whether multimodal GUI agents can be distracted by environmental context. Experimental results reveal that even the most powerful models, whether generalist agents or specialist GUI agents, are susceptible to distractions. Furthermore, we explore the adversarial perspective and implement environment injection, demonstrating that such unfaithfulness can be exploited, leading to unexpected risks.
     - 📅 Date: Aug 05, 2024
-  
-- [OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents](https://arxiv.org/abs/2506.14866)
-    - 🔑 Key: benchmark
-    - 🤖 Agent Type: OS Agent / GUI Agent
-    - 📖 TLDR: Computer use agents—AI systems that can interact with graphical interfaces through screenshots and accessibility trees—pose significant safety risks that have been largely overlooked despite their growing popularity. We introduce **OS-Harm**, a comprehensive benchmark with 150 tasks testing three categories of harmful behavior: deliberate user misuse, prompt injection attacks, and model misbehavior across various applications like email clients, browsers, and code editors. Our evaluation of frontier models reveals concerning vulnerabilities: they frequently comply with deliberate misuse requests, are susceptible to static prompt injections, and occasionally perform unsafe actions without proper safeguards.
-    - 📅 Date: Jun 17, 2025
 
 
 ### 5. Benchmark / Survey / Position Papers
@@ -264,6 +258,12 @@ Malfunction Amplification](https://arxiv.org/pdf/2407.20859)
     - 🤖 Agent Type: Web Agent
     - 📖 TLDR: This work introduces CASA, a benchmark designed to evaluate the cultural and social awareness of LLM agents across two web-based tasks: online shopping and social discussion forums. CASA assesses LLM agents’ ability to detect and appropriately respond to norm-violating user queries and observations. The evaluation framework measures awareness coverage, helpfulness in managing user queries, and the violation rate when facing misleading web content. Benchmarking experiments reveal that LLM agents perform significantly worse in web-based environments, with less than 10% awareness coverage and over 40% violation rates. To enhance performance, we explore prompting and fine-tuning, finding that fine-tuning on culture-specific datasets improves generalization across regions, while prompting enhances task navigation. These findings highlight the necessity of benchmarking LLM agents' cultural and social awareness throughout their development.
     - 📅 Date: Feb 09, 2025
+
+- [OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents](https://arxiv.org/abs/2506.14866)
+    - 🔑 Key: benchmark
+    - 🤖 Agent Type: OS Agent / GUI Agent
+    - 📖 TLDR: Computer use agents—AI systems that can interact with graphical interfaces through screenshots and accessibility trees—pose significant safety risks that have been largely overlooked despite their growing popularity. We introduce **OS-Harm**, a comprehensive benchmark with 150 tasks testing three categories of harmful behavior: deliberate user misuse, prompt injection attacks, and model misbehavior across various applications like email clients, browsers, and code editors. Our evaluation of frontier models reveals concerning vulnerabilities: they frequently comply with deliberate misuse requests, are susceptible to static prompt injections, and occasionally perform unsafe actions without proper safeguards.
+    - 📅 Date: Jun 17, 2025
     
 
 ## Contributing
