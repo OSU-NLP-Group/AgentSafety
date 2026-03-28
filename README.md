@@ -56,6 +56,13 @@ A curated collection of research papers, articles, and resources focused on the 
 
 ### 2. Tool Agents / RAG Systems
 
+- [Internal Safety Collapse in Frontier Large Language Models](https://arxiv.org/abs/2603.23509)
+    - 🔑 Key: attack
+    - 🤖 Agent Type: Tool Agent
+    - 📖 TLDR: This paper reveals a novel safety failure mode where LLM agents produce harmful content as a side effect of completing normal professional tasks — no adversarial prompting needed. The agentic execution mode shows agents autonomously generating dangerous data (exploits, toxins, bioweapons) when given legitimate ML pipelines to complete. Jailbreaks any frontier LLM in pass@3 including Claude Opus 4.6 and GPT-5.4. Black-box, cross-domain (8+ disciplines).
+    - 📅 Date: Mar 04, 2026
+    - 💻 Code: [ISC-Bench](https://github.com/wuyoscar/ISC-Bench)
+
 - [TrustAgent: Towards Safe and Trustworthy LLM-based Agents](https://arxiv.org/abs/2402.01586)
     - 🔑 Key: defense
     - 🤖 Agent Type: Tool Agent
