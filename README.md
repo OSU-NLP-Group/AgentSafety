@@ -264,6 +264,12 @@ Malfunction Amplification](https://arxiv.org/pdf/2407.20859)
     - 🤖 Agent Type: OS Agent / GUI Agent
     - 📖 TLDR: Computer use agents—AI systems that can interact with graphical interfaces through screenshots and accessibility trees—pose significant safety risks that have been largely overlooked despite their growing popularity. We introduce **OS-Harm**, a comprehensive benchmark with 150 tasks testing three categories of harmful behavior: deliberate user misuse, prompt injection attacks, and model misbehavior across various applications like email clients, browsers, and code editors. Our evaluation of frontier models reveals concerning vulnerabilities: they frequently comply with deliberate misuse requests, are susceptible to static prompt injections, and occasionally perform unsafe actions without proper safeguards.
     - 📅 Date: Jun 17, 2025
+
+- [OpenClaw as Language Infrastructure: A Case-Centered Survey of a Public Agent Ecosystem in the Wild](https://www.preprints.org/manuscript/202603.1060)
+    - 🔑 Key: survey
+    - 🤖 Agent Type: Tool Agent, OS Agent
+    - 📖 TLDR: A case-centered survey of the OpenClaw public-agent ecosystem organized around Platform, Security, Societies, and Deployment. Its Security dimension synthesizes governance and risk concerns of an open, skill-extensible, messaging-native agent—skill supply chain (ClawHub), delegated authority, proactive background turns (Heartbeat), and deployment exposure—framing OpenClaw-specific threats within the ecosystem-level tradeoff between openness and safety.
+    - 📅 Date: Mar 01, 2026
     
 
 ## Contributing
