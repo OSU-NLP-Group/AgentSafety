@@ -264,6 +264,12 @@ Malfunction Amplification](https://arxiv.org/pdf/2407.20859)
     - 🤖 Agent Type: OS Agent / GUI Agent
     - 📖 TLDR: Computer use agents—AI systems that can interact with graphical interfaces through screenshots and accessibility trees—pose significant safety risks that have been largely overlooked despite their growing popularity. We introduce **OS-Harm**, a comprehensive benchmark with 150 tasks testing three categories of harmful behavior: deliberate user misuse, prompt injection attacks, and model misbehavior across various applications like email clients, browsers, and code editors. Our evaluation of frontier models reveals concerning vulnerabilities: they frequently comply with deliberate misuse requests, are susceptible to static prompt injections, and occasionally perform unsafe actions without proper safeguards.
     - 📅 Date: Jun 17, 2025
+
+- [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/abs/2606.08878)
+    - 🔑 Key: benchmark, evaluation
+    - 🤖 Agent Type: Multi-Agent
+    - 📖 TLDR: This benchmark tests whether models can write orchestration prompts for multi-agent systems without leaking unnecessary information. It defines 110 scenarios across 10 topologies and scores role-fragment assignment and prompt writing, making information leakage an explicit failure mode for multi-agent coordination.
+    - 📅 Date: Jun 07, 2026
     
 
 ## Contributing
