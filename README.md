@@ -264,6 +264,12 @@ Malfunction Amplification](https://arxiv.org/pdf/2407.20859)
     - 🤖 Agent Type: OS Agent / GUI Agent
     - 📖 TLDR: Computer use agents—AI systems that can interact with graphical interfaces through screenshots and accessibility trees—pose significant safety risks that have been largely overlooked despite their growing popularity. We introduce **OS-Harm**, a comprehensive benchmark with 150 tasks testing three categories of harmful behavior: deliberate user misuse, prompt injection attacks, and model misbehavior across various applications like email clients, browsers, and code editors. Our evaluation of frontier models reveals concerning vulnerabilities: they frequently comply with deliberate misuse requests, are susceptible to static prompt injections, and occasionally perform unsafe actions without proper safeguards.
     - 📅 Date: Jun 17, 2025
+
+- [Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution](https://arxiv.org/abs/2610.17816)
+    - 🔑 Key: benchmark, evaluation
+    - 🤖 Agent Type: Tool Agent / OS Agent
+    - 📖 TLDR: EC²-Bench (EC2-Bench) studies edge–cloud collaboration for long-horizon LLM agents with 128 executable digital-workspace tasks (100 with privacy annotations), jointly measuring task performance, cloud cost and privacy exposure (how much sensitive workspace information becomes visible to the cloud model). It compares query routing, per-step routing, edge-controlled delegation and edge-controlled advisory, and finds that as edge models get stronger, strategies converge in performance but still differ greatly in privacy exposure.
+    - 📅 Date: Oct 13, 2026
     
 
 ## Contributing
